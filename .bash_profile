@@ -28,3 +28,8 @@ alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 7'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
+
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Documents
+export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
+source /usr/local/bin/virtualenvwrapper.sh
