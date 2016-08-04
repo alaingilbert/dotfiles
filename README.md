@@ -22,6 +22,7 @@ sudo pip install virtualenvwrapper --ignore-installed six
 chmod 400 ~/.ssh/id_rsa
 ```
 
+- iTerm2
 - Dropbox
 - Chrome
 - 1Password
@@ -36,3 +37,4 @@ chmod 400 ~/.ssh/id_rsa
 - Spectacle
 - flux
 - MacDown
+- Sublime Text 2
