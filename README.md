@@ -9,11 +9,6 @@ Install homebrew
 ```
 
 ```
-brew install postgresql
-brew install redis
-brew install rabbitmq
-brew install bash-completion
-brew install ack
 sudo pip install supervisor
 sudo pip install virtualenvwrapper --ignore-installed six
 ```
@@ -22,20 +17,4 @@ sudo pip install virtualenvwrapper --ignore-installed six
 chmod 400 ~/.ssh/id_rsa
 ```
 
-- iTerm2
-- Dropbox
-- Chrome
-- 1Password
-- Sourcetree
-- postman/paw
-- Mia for Gmail
-- Evernote
-- Skype
 - Navicat Lite
-- Bee
-- Alfred
-- Spectacle
-- flux
-- MacDown
-- Sublime Text 2
-- Dash
