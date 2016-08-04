@@ -8,14 +8,16 @@ brew install ack
 sudo pip install supervisor
 sudo pip install virtualenvwrapper --ignore-installed six
 
-ln -s /Users/agilbert/.dotfiles/.bash_profile /Users/agilbert/.bash_profile
-ln -s /Users/agilbert/.dotfiles/git-completion.bash /Users/agilbert/git-completion.bash
-ln -s /Users/agilbert/.dotfiles/.vim /Users/agilbert
-ln -s /Users/agilbert/.dotfiles/.vimrc /Users/agilbert/.vimrc
-ln -s /Users/agilbert/.dotfiles/.gitconfig /Users/agilbert/.gitconfig
-ln -s /Users/agilbert/.dotfiles/.gitignore_global /Users/agilbert/.gitignore_global
-ln -s /Users/agilbert/.dotfiles/.ssh/config /Users/agilbert/.ssh/config
-ln -s /Users/agilbert/.dotfiles/.ackrc /Users/agilbert/.ackrc
+```
+ln -s $HOME/.dotfiles/.bash_profile       $HOME/.bash_profile
+ln -s $HOME/.dotfiles/.gitignore_global   $HOME/.gitignore_global
+ln -s $HOME/.dotfiles/git-completion.bash $HOME/git-completion.bash
+ln -s $HOME/.dotfiles/.vim                $HOME
+ln -s $HOME/.dotfiles/.vimrc              $HOME/.vimrc
+ln -s $HOME/.dotfiles/.gitconfig          $HOME/.gitconfig
+ln -s $HOME/.dotfiles/.ssh/config         $HOME/.ssh/config
+ln -s $HOME/.dotfiles/.ackrc              $HOME/.ackrc
+```
 
 Dropbox
 Chrome
@@ -29,4 +31,4 @@ Navicat Lite
 Bee
 Alfred
 Spectacle
-f.lux
+flux
