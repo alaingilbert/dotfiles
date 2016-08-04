@@ -38,3 +38,4 @@ chmod 400 ~/.ssh/id_rsa
 - flux
 - MacDown
 - Sublime Text 2
+- Dash
