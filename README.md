@@ -17,9 +17,12 @@ ln -s /Users/agilbert/.dotfiles/.gitignore_global /Users/agilbert/.gitignore_glo
 ln -s /Users/agilbert/.dotfiles/.ssh/config /Users/agilbert/.ssh/config
 ln -s /Users/agilbert/.dotfiles/.ackrc /Users/agilbert/.ackrc
 
+Dropbox
 Chrome
 1Password
 Sourcetree
+postman/paw
+Mia for Gmail
 Evernote
 Skype
 Navicat Lite
