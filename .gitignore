@@ -1,1 +1,3 @@
-.vim/.netrwhist
+vim.symlink/.netrwhist
+ssh.symlink/known_hosts
+ssh.symlink/id_rsa
