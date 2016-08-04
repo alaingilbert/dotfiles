@@ -77,3 +77,20 @@ let g:ctrlp_custom_ignore = {
   \ }
 
 let g:ctrlp_dont_split = 'NERD_tree_2'
+
+func! SetupRuntime()
+  :Eval (curbside.api.conf/conf-set! :rabbitmq-url nil)
+  :Eval (curbside.api.conf/conf-set! :pickup-notifier-enabled false)
+  :Eval (curbside.api.conf/conf-set! :quartz-enabled false)
+  :Eval (curbside.api.conf/conf-set! :braintree-env :sandbox)
+  :Eval (curbside.api.conf/conf-set! :tokenex-enabled false)
+  :Eval (curbside.api.conf/conf-set! :notify-spy true)
+endfunc
+
+map <leader>c :call CurbsideApi()<CR>
+func! CurbsideApi()
+  :Require
+  ":call SetupRuntime()
+  :Eval (curbside.api.runtime/stop!)
+  :Eval (curbside.api.runtime/start!)
+endfunc
