@@ -18,18 +18,21 @@ sudo pip install supervisor
 sudo pip install virtualenvwrapper --ignore-installed six
 ```
 
+```
 chmod 400 ~/.ssh/id_rsa
+```
 
-Dropbox
-Chrome
-1Password
-Sourcetree
-postman/paw
-Mia for Gmail
-Evernote
-Skype
-Navicat Lite
-Bee
-Alfred
-Spectacle
-flux
+- Dropbox
+- Chrome
+- 1Password
+- Sourcetree
+- postman/paw
+- Mia for Gmail
+- Evernote
+- Skype
+- Navicat Lite
+- Bee
+- Alfred
+- Spectacle
+- flux
+- MacDown
