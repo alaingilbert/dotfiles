@@ -19,6 +19,8 @@ ln -s $HOME/.dotfiles/.ssh/config         $HOME/.ssh/config
 ln -s $HOME/.dotfiles/.ackrc              $HOME/.ackrc
 ```
 
+chmod 400 ~/.ssh/id_rsa
+
 Dropbox
 Chrome
 1Password
