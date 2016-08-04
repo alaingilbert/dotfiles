@@ -14,6 +14,7 @@ ln -s /Users/agilbert/.dotfiles/.vim /Users/agilbert
 ln -s /Users/agilbert/.dotfiles/.vimrc /Users/agilbert/.vimrc
 ln -s /Users/agilbert/.dotfiles/.gitconfig /Users/agilbert/.gitconfig
 ln -s /Users/agilbert/.dotfiles/.gitignore_global /Users/agilbert/.gitignore_global
+ln -s /Users/agilbert/.dotfiles/.ssh/config /Users/agilbert/.ssh/config
 
 Chrome
 1Password
