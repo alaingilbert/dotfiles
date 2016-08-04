@@ -1,5 +1,8 @@
 git clone git@bitbucket.org:agilbert/dotfiles.git ~/.dotfiles
 
+Install homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 brew install bash-completion
 brew install ack
 sudo pip install supervisor
