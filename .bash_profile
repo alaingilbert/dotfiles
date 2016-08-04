@@ -37,3 +37,6 @@ source /usr/local/bin/virtualenvwrapper.sh
 export GOPATH=$HOME/go
 
 alias super="supervisord -c /Users/agilbert/Documents/supervisor.conf"
+
+complete -o default -o nospace -F _git g
+source ~/git-completion.bash
