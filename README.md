@@ -7,6 +7,7 @@ sudo pip install virtualenvwrapper --ignore-installed six
 
 ln -s /Users/agilbert/.dotfiles/.bash_profile /Users/agilbert/.bash_profile
 ln -s /Users/agilbert/.dotfiles/git-completion.bash /Users/agilbert/git-completion.bash
+ln -s /Users/agilbert/.dotfiles/.vim /Users/agilbert
 
 Chrome
 1Password
