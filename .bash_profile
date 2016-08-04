@@ -40,3 +40,7 @@ alias super="supervisord -c /Users/agilbert/Documents/supervisor.conf"
 
 complete -o default -o nospace -F _git g
 source ~/git-completion.bash
+
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
