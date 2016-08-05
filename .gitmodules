@@ -25,3 +25,42 @@
 [submodule "vim.symlink/bundle/vim-json"]
 	path = vim.symlink/bundle/vim-json
 	url = https://github.com/elzr/vim-json
+[submodule "vim.symlink/bundle/splitjoin.vim"]
+	path = vim.symlink/bundle/splitjoin.vim
+	url = git@github.com:AndrewRadev/splitjoin.vim.git
+[submodule "vim.symlink/bundle/gundo.vim"]
+	path = vim.symlink/bundle/gundo.vim
+	url = git@github.com:sjl/gundo.vim.git
+[submodule "vim.symlink/bundle/YankRing.vim"]
+	path = vim.symlink/bundle/YankRing.vim
+	url = git@github.com:vim-scripts/YankRing.vim.git
+[submodule "vim.symlink/bundle/ack.vim"]
+	path = vim.symlink/bundle/ack.vim
+	url = git@github.com:mileszs/ack.vim.git
+[submodule "vim.symlink/bundle/rainbow_parentheses.vim"]
+	path = vim.symlink/bundle/rainbow_parentheses.vim
+	url = git@github.com:kien/rainbow_parentheses.vim.git
+[submodule "vim.symlink/bundle/typescript-vim"]
+	path = vim.symlink/bundle/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim.git
+[submodule "vim.symlink/bundle/vim-clojure-highlight"]
+	path = vim.symlink/bundle/vim-clojure-highlight
+	url = git@github.com:guns/vim-clojure-highlight.git
+[submodule "vim.symlink/bundle/vim-coffee-script"]
+	path = vim.symlink/bundle/vim-coffee-script
+	url = git@github.com:kchmck/vim-coffee-script.git
+[submodule "vim.symlink/bundle/vim-trailing-whitespace"]
+	path = vim.symlink/bundle/vim-trailing-whitespace
+	url = git@github.com:bronson/vim-trailing-whitespace.git
+[submodule "vim.symlink/bundle/vim-surround"]
+	path = vim.symlink/bundle/vim-surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule "vim.symlink/bundle/vim-javascript"]
+	path = vim.symlink/bundle/vim-javascript
+	url = git@github.com:pangloss/vim-javascript.git
+[submodule "vim.symlink/bundle/vim-airline"]
+	path = vim.symlink/bundle/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule "vim.symlink/bundle/vim-airline-themes"]
+	path = vim.symlink/bundle/vim-airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes.git
