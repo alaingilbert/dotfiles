@@ -1,10 +1,13 @@
+[commit]
+  gpgsign = true
 [color]
   diff = auto
   status = auto
   branch = auto
 [user]
-	name = Alain Gilbert
-	email = alain.gilbert.15@gmail.com
+  name = Alain Gilbert
+  email = alain.gilbert.15@gmail.com
+  signingkey = 46DD7443DEDB830D
 [alias]
   ci = commit
   co = checkout
@@ -12,9 +15,21 @@
   br = branch
 [core]
 	excludesfile = /Users/agilbert/.gitignore_global
+	quotepath = false
+	pager = diff-so-fancy | less --tabs=1,5 -R
+	editor = vim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
