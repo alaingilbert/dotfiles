@@ -1,11 +1,7 @@
 ```
 git clone --recursive git@bitbucket.org:agilbert/dotfiles.git ~/.dotfiles
 ./bootstrap.sh
-```
-
-Install homebrew
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+./brew.sh
 ```
 
 ```
