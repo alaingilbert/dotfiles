@@ -14,6 +14,7 @@ brew install postgresql
 brew install redis
 brew install rabbitmq
 brew install bash-completion
+brew install httpie
 
 brew cask install iterm2
 brew cask install dropbox
