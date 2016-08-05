@@ -91,9 +91,9 @@ map <leader>c :call CurbsideApi()<CR>
 func! CurbsideApi()
   let fileExtension = expand('%:e')
   if fileExtension == "clj"
-  :Require
-  ":call SetupRuntime()
-  :Eval (curbside.api.runtime/stop!)
-  :Eval (curbside.api.runtime/start!)
+    :Require
+    ":call SetupRuntime()
+    :Eval (curbside.api.runtime/stop!)
+    :Eval (curbside.api.runtime/start!)
   endif
 endfunc
