@@ -32,7 +32,7 @@ brew cask install dash
 brew cask install macdown
 brew cask install sublime-text
 brew cask install bee
-brew cask install gmail-notifier
+brew cask install gmail-notifr
 
 # Remove outdated versions from the cellar.
 brew cleanup
