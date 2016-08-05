@@ -34,6 +34,7 @@ brew cask install macdown
 brew cask install sublime-text
 brew cask install bee
 brew cask install gmail-notifr
+brew cask install garmin-express
 
 # Remove outdated versions from the cellar.
 brew cleanup
