@@ -7,6 +7,7 @@ git clone --recursive git@bitbucket.org:agilbert/dotfiles.git ~/.dotfiles
 ```
 sudo pip install supervisor
 sudo pip install virtualenvwrapper --ignore-installed six
+sudo pip install Pygments
 ```
 
 ```
