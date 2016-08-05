@@ -92,7 +92,7 @@ func! CurbsideApi()
   let fileExtension = expand('%:e')
   if fileExtension == "clj"
     :Require
-    ":call SetupRuntime()
+    :call SetupRuntime()
     :Eval (curbside.api.runtime/stop!)
     :Eval (curbside.api.runtime/start!)
   endif
