@@ -97,3 +97,6 @@ func! CurbsideApi()
     :Eval (curbside.api.runtime/start!)
   endif
 endfunc
+
+set laststatus=2
+let g:airline_powerline_fonts = 1
