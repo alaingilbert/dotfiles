@@ -15,6 +15,7 @@ brew install redis
 brew install rabbitmq
 brew install bash-completion
 brew install httpie
+brew install diff-so-fancy
 
 brew cask install iterm2
 brew cask install dropbox
