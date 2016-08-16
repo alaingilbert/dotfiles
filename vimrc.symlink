@@ -77,6 +77,7 @@ let g:ctrlp_custom_ignore = {
   \ }
 
 let g:ctrlp_dont_split = 'NERD_tree_2'
+let NERDTreeIgnore = ['\.pyc$']
 
 func! SetupRuntime()
   :Eval (curbside.api.conf/conf-set! :rabbitmq-url nil)
@@ -100,3 +101,5 @@ endfunc
 
 set laststatus=2
 let g:airline_powerline_fonts = 1
+
+set exrc
