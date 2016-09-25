@@ -8,7 +8,7 @@ export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
 source /usr/local/bin/virtualenvwrapper.sh
 
 # Setting PATH for Python 2.7
-PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+PATH="${PATH}:/Library/Frameworks/Python.framework/Versions/2.7/bin"
 export PATH
 
 export GOPATH=$HOME/go
