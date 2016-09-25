@@ -72,7 +72,7 @@ filetype plugin indent on
 autocmd BufNewFile,BufReadPost *.ino,*.pde set filetype=cpp
 
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\v[\/]\.(git|hg|svn)$|env|node_modules',
+  \ 'dir':  '\v[\/]\.(git|hg|svn)$|env|node_modules|bower_components|dist',
   \ 'file': '\v\.(exe|so|dll)$|.DS_Store',
   \ }
 
