@@ -16,6 +16,7 @@ alias gd="git diff"
 alias gs="git st -s"
 alias ga="git ci -am"
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias clean="find . -name \*.pyc -delete"
 
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
