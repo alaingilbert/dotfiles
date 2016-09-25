@@ -28,9 +28,6 @@
 [submodule "vim.symlink/bundle/gundo.vim"]
 	path = vim.symlink/bundle/gundo.vim
 	url = git@github.com:sjl/gundo.vim.git
-[submodule "vim.symlink/bundle/YankRing.vim"]
-	path = vim.symlink/bundle/YankRing.vim
-	url = git@github.com:vim-scripts/YankRing.vim.git
 [submodule "vim.symlink/bundle/ack.vim"]
 	path = vim.symlink/bundle/ack.vim
 	url = git@github.com:mileszs/ack.vim.git
