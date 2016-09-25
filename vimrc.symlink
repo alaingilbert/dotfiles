@@ -88,12 +88,12 @@ func! SetupRuntime()
   :Eval (curbside.api.conf/conf-set! :notify-spy true)
 endfunc
 
-map <leader>c :silent :call CurbsideApi()<CR>
+map <leader>c :call CurbsideApi()<CR>
 func! CurbsideApi()
   let fileExtension = expand('%:e')
   if fileExtension == "clj"
     :Require
-    :call SetupRuntime()
+    ":call SetupRuntime()
     :Eval (curbside.api.runtime/stop!)
     :Eval (curbside.api.runtime/start!)
   endif
