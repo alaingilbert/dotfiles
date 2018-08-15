@@ -16,6 +16,8 @@ brew install rabbitmq
 brew install bash-completion
 brew install httpie
 brew install diff-so-fancy
+brew install direnv
+brew install gpg
 
 brew cask install iterm2
 brew cask install dropbox
@@ -38,8 +40,9 @@ brew cask install gmail-notifr
 brew cask install garmin-express
 brew cask install fritzing
 brew cask install teamviewer
-brew cask install utorrent
 brew cask install mysqlworkbench
+brew cask install jetbrains-toolbox
+brew cask install minikube
 
 # Remove outdated versions from the cellar.
 brew cleanup
