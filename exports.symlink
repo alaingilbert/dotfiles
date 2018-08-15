@@ -14,3 +14,5 @@ export PATH
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:~/.cargo/bin
+
+export PATH=$PATH:$GOPATH/src/github.com/uber/go-torch/FlameGraph
