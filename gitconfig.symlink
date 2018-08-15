@@ -1,5 +1,9 @@
 [commit]
   gpgsign = true
+[gpg]
+  program = /usr/local/bin/gpg
+[credential]
+  helper = osxkeychain
 [color]
   diff = auto
   status = auto
