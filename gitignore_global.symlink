@@ -5,3 +5,4 @@
 *.bak
 *.pyc
 .idea
+.ackrc
