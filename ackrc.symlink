@@ -3,3 +3,4 @@
 
 --ignore-dir=bower_components/
 --ignore-dir=node_modules/
+--ignore-dir=target/
