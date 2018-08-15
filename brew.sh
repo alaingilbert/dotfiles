@@ -43,6 +43,7 @@ brew cask install teamviewer
 brew cask install mysqlworkbench
 brew cask install jetbrains-toolbox
 brew cask install minikube
+brew cask install discord
 
 # Remove outdated versions from the cellar.
 brew cleanup
