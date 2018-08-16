@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+brew cask install utorrent
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -21,7 +22,7 @@ brew install gpg
 
 brew cask install iterm2
 brew cask install dropbox
-brew cask install 1password
+brew cask install 1password6
 brew cask install google-chrome
 brew cask install slack
 brew cask install vlc
